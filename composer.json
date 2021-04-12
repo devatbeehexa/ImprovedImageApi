@@ -1,0 +1,25 @@
+{
+    "name": "beehexa/module-improvedimageapi",
+    "description": "Update product updated at timestamp when image is updated",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Beehexa",
+            "email": "support@beehexa.com",
+            "homepage": "https://www.beehexa.com",
+            "role": "Technical Support"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Beehexa\\ImprovedImageApi\\": ""
+        }
+    }
+}
